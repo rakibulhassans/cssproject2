@@ -29,7 +29,7 @@ body{
    
     margin: 100px auto;
     /* height:100vh; */
-   height: 510px;
+   height: 500px;
    width: 300px;
     background-color: hsl(0, 0%, 12%);
    
@@ -71,36 +71,42 @@ p{
      color: hsl(0, 0%, 100%);
      
 }
-/* nav{
+ nav{
     
 display: flex;
 flex-flow: column;
 align-items: center;
 }
     
- */
+ 
 
 
-nav ul {
+nav button {
     /* font-size: 30px; */
-    padding-right: 36px;
-    width:300px;
-    list-style-type: none;
+    /* padding-right: 36px; */
+    width:280px;
+  
     color: hsl(0, 0%, 100%);
 }
-
- li {
+ 
+ button {
   
     text-align: center;
     background-color: hsl(0, 0%, 20%);
     padding: 10px;
    
 
-    margin: 15px;
+    margin: 8px;
+    border: none;
     border-radius: 10px;
 
 }
-  li:hover{
+button a{
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%); 
+}
+  button:hover{
 
     background-color: greenyellow;
   }  
