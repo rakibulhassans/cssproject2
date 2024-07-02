@@ -81,30 +81,23 @@ align-items: center;
  
 
 
-nav button {
-    /* font-size: 30px; */
-    /* padding-right: 36px; */
-    width:280px;
-  
-    color: hsl(0, 0%, 100%);
+a{
+   
+    text-decoration: none;
+    /* color: hsl(0, 0%, 100%);  */
 }
- 
- button {
-  
+button {
+    width:280px;
+    color: hsl(0, 0%, 100%);
     text-align: center;
     background-color: hsl(0, 0%, 20%);
     padding: 10px;
    
 
-    margin: 8px;
+    margin: 7px;
     border: none;
     border-radius: 10px;
-
-}
-button a{
     font-size: 14px;
-    text-decoration: none;
-    color: hsl(0, 0%, 100%); 
 }
   button:hover{
 
